@@ -1,0 +1,19 @@
+{
+  "name": "prediction-market-aggregator",
+  "private": true,
+  "workspaces": [
+    "client",
+    "shared"
+  ],
+  "scripts": {
+    "dev": "concurrently -n server-rs,client -c blue,green \"npm run dev:server-rs\" \"npm run dev -w client\"",
+    "dev:server-rs": "cargo run --manifest-path server-rs/Cargo.toml",
+    "build": "cargo build --manifest-path server-rs/Cargo.toml && npm run build -w shared && npm run build -w client",
+    "lint": "npm run lint -w client",
+    "test:server-rs": "cargo test --manifest-path server-rs/Cargo.toml"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "typescript": "^5.7.3"
+  }
+}

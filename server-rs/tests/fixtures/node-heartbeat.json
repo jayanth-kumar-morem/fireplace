@@ -1,0 +1,8 @@
+{
+  "type": "heartbeat",
+  "timestamp": 1742200015000,
+  "connections": {
+    "polymarket": "connected",
+    "kalshi": "connected"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "book_update",
+  "venue": "polymarket",
+  "changes": [
+    { "side": "bid", "price": 0.21, "size": 150.0 }
+  ],
+  "timestamp": 1742200001000
+}

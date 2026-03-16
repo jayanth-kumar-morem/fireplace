@@ -1,0 +1,20 @@
+{
+  "type": "snapshot",
+  "data": {
+    "market": {
+      "title": "Will JD Vance win the 2028 US Presidential Election?",
+      "outcomes": ["Yes", "No"],
+      "polymarketSlug": "will-jd-vance-win-the-2028-us-presidential-election",
+      "kalshiTicker": "KXPRESPERSON-28-JVAN"
+    },
+    "books": {
+      "polymarket": null,
+      "kalshi": null,
+      "aggregated": null
+    },
+    "connections": {
+      "polymarket": "connected",
+      "kalshi": "reconnecting"
+    }
+  }
+}

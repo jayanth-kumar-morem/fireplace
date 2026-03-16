@@ -1,0 +1,13 @@
+node_modules/
+dist/
+target/
+.env
+*.tsbuildinfo
+.vite/
+.DS_Store
+sdd.md
+server-migration-tasks.md
+server-migration.md
+take-home-assignment.md
+tasks.md
+DEMO.md
